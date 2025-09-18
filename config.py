@@ -13,7 +13,7 @@ class Config:
 
     
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://AMMAAAAA:AMMAAAAA@cluster0.mi7ldio.mongodb.net/?retryWrites=true&w=majority")
-    DATABASE_NAME = environ.get("DATABASE_NAME", "forward")
+    DATABASE_NAME = environ.get("DATABASE_NAME", "Forward")
     BOT_OWNER = int(environ.get("BOT_OWNER", "6124951040"))
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -30,5 +30,6 @@ class temp(object):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
